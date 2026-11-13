@@ -18,7 +18,7 @@
 - ❌ 依赖模型"记得去调用记忆工具"，弱模型表现差
 - 💡 借鉴：分层 + 容量上限 + 晋升/淘汰策略
 
-## ④ 文件优先（ai-memory / Basic Memory / claude-mem / OpenViking）
+## ④ 文件优先（ai-memory / Basic Memory / claude-mem / OpenViking / GBrain）
 Markdown 文件（常配 Git）是唯一真相，向量/全文索引是可重建的派生物。
 - ✅ 人可读可改、可 diff、可迁移、无厂商锁定、天然多 agent 共享
 - ❌ 大规模检索需另建索引；并发写需处理

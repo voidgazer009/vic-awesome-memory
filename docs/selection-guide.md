@@ -2,7 +2,7 @@
 
 ```
 需要人能直接读/改记忆吗？
-├─ 是 → 文件优先：ai-memory / Basic Memory / vic-memory
+├─ 是 → 文件优先：ai-memory / Basic Memory / GBrain / vic-memory
 └─ 否
    ├─ 事实经常变化 / 需要审计时间线？ → Graphiti (Zep)
    ├─ 主要是"记住用户偏好"的聊天应用？ → Mem0 / Memobase / Supermemory

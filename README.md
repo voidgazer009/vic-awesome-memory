@@ -5,7 +5,7 @@
 **全网最好用的 AI Agent 记忆系统 · 论文 · 架构 · 评测，一份就够**
 Curated AI-agent memory systems, papers, architectures and benchmarks — organised by how the human brain remembers.
 
-`29 个开源系统` · `20+ 篇核心论文` · `人脑 ↔ AI 记忆映射` · `选型指南` · `数据更新于 2026-11-12`
+`31 个开源系统` · `20+ 篇核心论文` · `人脑 ↔ AI 记忆映射` · `选型指南` · `数据更新于 2026-11-13`
 
 姊妹项目 → [**vic-memory**](https://github.com/voidgazer009/vic-memory)：我们自己的类人脑记忆体系，适配任意 Agent
 
@@ -62,7 +62,7 @@ Curated AI-agent memory systems, papers, architectures and benchmarks — organi
 
 ## 开源系统榜单
 
-> Star 数通过 GitHub API 于 **2026-11-12** 读取。"Vic 点评"是我们的判断，不是厂商宣传。
+> Star 数通过 GitHub API 读取：既有条目 **2026-11-12**，标 🆕 的新条目 **2026-11-13**（每周一统一刷新）。"Vic 点评"是我们的判断，不是厂商宣传。
 
 | # | 系统 | ⭐ | 许可证 | 流派 | Vic 点评 |
 |---|---|---|---|---|---|
@@ -73,28 +73,30 @@ Curated AI-agent memory systems, papers, architectures and benchmarks — organi
 | 5 | [OpenViking](https://github.com/volcengine/OpenViking) | 42.0k | AGPL-3.0 | ③+④ | 字节火山：记忆、知识、技能统一成文件系统式上下文库，L0/L1/L2 分级加载 |
 | 6 | [GraphRAG](https://github.com/microsoft/graphrag) | 36.6k | MIT | ② | 适合"全局问题"，不是对话记忆，但社区摘要思路值得借 |
 | 7 | [Cognee](https://github.com/topoteretes/cognee) | 33.3k | Apache-2.0 | ② | 图+向量一体，自托管友好，可做 MCP 后端 |
-| 8 | [Graphiti (Zep)](https://github.com/getzep/graphiti) | 32.8k | Apache-2.0 | ② | **双时序**是杀手锏：旧事实失效而不删除，最像人"记得以前是这样" |
-| 9 | [Supermemory](https://github.com/supermemoryai/supermemory) | 31.6k | MIT | ① | 快、带连接器，可本地运行 |
-| 10 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 30.8k | 自定义 | ② | 团队级共享记忆中枢 |
-| 11 | [agentmemory](https://github.com/rohitg00/agentmemory) | 30.3k | Apache-2.0 | ④ | 编码 agent 记忆，基线公开且自曝局限，态度难得 |
-| 12 | [Letta (MemGPT)](https://github.com/letta-ai/letta) | 25.4k | Apache-2.0 | ③ | 记忆 OS 鼻祖：agent 自己编辑核心记忆块 |
-| 13 | [Generative Agents](https://github.com/joonspk-research/generative_agents) | 22.4k | Apache-2.0 | ⑤ | 近因×重要性×相关性 + 反思，奠基之作 |
-| 14 | [Memori](https://github.com/MemoriLabs/Memori) | 17.6k | 自定义 | ① | SQL 落地的记忆层，模型无关 |
-| 15 | [ai-memory](https://github.com/akitaonrails/ai-memory) | 15.7k | MIT | ④ | Git+Markdown 为真相源，跨厂商交接，调研文档极好 |
-| 16 | [MemOS](https://github.com/MemTensor/MemOS) | 12.4k | Apache-2.0 | ③+⑥ | MemCube 统一明文 / KV / 参数三种记忆 |
-| 17 | [Honcho](https://github.com/plastic-labs/honcho) | 8.1k | AGPL-3.0 | ⑤ | 给每个用户建"心智模型"，偏自传体记忆 |
-| 18 | [ByteRover CLI](https://github.com/campfirein/byterover-cli) | 4.9k | 自定义 | ④ | 编码 agent 可移植记忆层（原 Cipher） |
-| 19 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 4.6k | AGPL-3.0 | ④ | 本地 Markdown 知识图谱，经 MCP 读写 |
-| 20 | [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | 4.1k | MIT | ⑤ | 海马体索引理论 + PPR，多跳关联回忆最强思路之一 |
-| 21 | [MIRIX](https://github.com/Mirix-AI/MIRIX) | 3.5k | Apache-2.0 | ⑤ | 六类记忆各由一个 agent 管理 |
-| 22 | [Memobase](https://github.com/memodb-io/memobase) | 3.0k | Apache-2.0 | ① | 用户画像为中心 |
-| 23 | [Memary](https://github.com/kingjulio8238/Memary) | 2.7k | MIT | ② | 早期作品，2024 后不再更新 |
-| 24 | [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 2.1k | Apache-2.0 | ② | MCP + REST，接 Claude / LangGraph / CrewAI |
-| 25 | [LangMem](https://github.com/langchain-ai/langmem) | 1.8k | MIT | ① | LangGraph 原生，含程序性记忆（提示词自优化） |
-| 26 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | 1.6k | Apache-2.0 | ③ | 短/中/长三层 + 热度晋升，EMNLP 2025 Oral |
-| 27 | [LightMem](https://github.com/zjunlp/LightMem) | 1.2k | MIT | ⑤ | 照搬 Atkinson-Shiffrin 三段式 + 睡眠期离线更新，ICLR 2026 |
-| 28 | [A-MEM](https://github.com/agiresearch/A-mem) | 1.2k | MIT | ⑤ | 卡片盒笔记法：新记忆会反过来改写旧记忆，NeurIPS 2025 |
-| 29 | [MCP Memory 参考实现](https://github.com/modelcontextprotocol/servers) | — | MIT | ② | 官方最小知识图谱记忆服务器，入门必看 |
+| 8 | [GBrain](https://github.com/garrytan/gbrain) 🆕 | 32.8k | MIT | ④ | Garry Tan 自用的生产级大脑：每条事实带来源、可更正可撤回，先无 key 关键词检索、再按需加语义与夜间"做梦"巩固；跨 agent 经 MCP 共享 |
+| 9 | [Graphiti (Zep)](https://github.com/getzep/graphiti) | 32.8k | Apache-2.0 | ② | **双时序**是杀手锏：旧事实失效而不删除，最像人"记得以前是这样" |
+| 10 | [Supermemory](https://github.com/supermemoryai/supermemory) | 31.6k | MIT | ① | 快、带连接器，可本地运行 |
+| 11 | [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 30.8k | 自定义 | ② | 团队级共享记忆中枢 |
+| 12 | [agentmemory](https://github.com/rohitg00/agentmemory) | 30.3k | Apache-2.0 | ④ | 编码 agent 记忆，基线公开且自曝局限，态度难得 |
+| 13 | [Letta (MemGPT)](https://github.com/letta-ai/letta) | 25.4k | Apache-2.0 | ③ | 记忆 OS 鼻祖：agent 自己编辑核心记忆块 |
+| 14 | [Generative Agents](https://github.com/joonspk-research/generative_agents) | 22.4k | Apache-2.0 | ⑤ | 近因×重要性×相关性 + 反思，奠基之作 |
+| 15 | [Memori](https://github.com/MemoriLabs/Memori) | 17.6k | 自定义 | ① | SQL 落地的记忆层，模型无关 |
+| 16 | [ai-memory](https://github.com/akitaonrails/ai-memory) | 15.7k | MIT | ④ | Git+Markdown 为真相源，跨厂商交接，调研文档极好 |
+| 17 | [MemOS](https://github.com/MemTensor/MemOS) | 12.4k | Apache-2.0 | ③+⑥ | MemCube 统一明文 / KV / 参数三种记忆 |
+| 18 | [Honcho](https://github.com/plastic-labs/honcho) | 8.1k | AGPL-3.0 | ⑤ | 给每个用户建"心智模型"，偏自传体记忆 |
+| 19 | [ByteRover CLI](https://github.com/campfirein/byterover-cli) | 4.9k | 自定义 | ④ | 编码 agent 可移植记忆层（原 Cipher） |
+| 20 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | 4.6k | AGPL-3.0 | ④ | 本地 Markdown 知识图谱，经 MCP 读写 |
+| 21 | [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | 4.1k | MIT | ⑤ | 海马体索引理论 + PPR，多跳关联回忆最强思路之一 |
+| 22 | [MIRIX](https://github.com/Mirix-AI/MIRIX) | 3.5k | Apache-2.0 | ⑤ | 六类记忆各由一个 agent 管理 |
+| 23 | [Memobase](https://github.com/memodb-io/memobase) | 3.0k | Apache-2.0 | ① | 用户画像为中心 |
+| 24 | [Memary](https://github.com/kingjulio8238/Memary) | 2.7k | MIT | ② | 早期作品，2024 后不再更新 |
+| 25 | [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 2.1k | Apache-2.0 | ② | MCP + REST，接 Claude / LangGraph / CrewAI |
+| 26 | [LangMem](https://github.com/langchain-ai/langmem) | 1.8k | MIT | ① | LangGraph 原生，含程序性记忆（提示词自优化） |
+| 27 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | 1.6k | Apache-2.0 | ③ | 短/中/长三层 + 热度晋升，EMNLP 2025 Oral |
+| 28 | [LightMem](https://github.com/zjunlp/LightMem) | 1.2k | MIT | ⑤ | 照搬 Atkinson-Shiffrin 三段式 + 睡眠期离线更新，ICLR 2026 |
+| 29 | [A-MEM](https://github.com/agiresearch/A-mem) | 1.2k | MIT | ⑤ | 卡片盒笔记法：新记忆会反过来改写旧记忆，NeurIPS 2025 |
+| 30 | [WikiTrace](https://github.com/yukyeongleee/wikitrace) 🆕 | 16 | Apache-2.0 | ⑤ | 经验记忆的"来源监控"：每条教训链接回原始轨迹，用之前先核对，减少"记错的教训害了 agent"（KAIST，arXiv:2611.14320） |
+| 31 | [MCP Memory 参考实现](https://github.com/modelcontextprotocol/servers) | — | MIT | ② | 官方最小知识图谱记忆服务器，入门必看 |
 
 **其他精选合集**：[IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) · [TsinghuaC3I/Awesome-Memory-for-Agents](https://github.com/TsinghuaC3I/Awesome-Memory-for-Agents) · [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey)
 
@@ -123,6 +125,7 @@ Curated AI-agent memory systems, papers, architectures and benchmarks — organi
 - [Reflexion](https://arxiv.org/abs/2303.11366) (2023) — 把失败教训写成语言记忆
 - [Voyager](https://arxiv.org/abs/2305.16291) (2023) — 可复用技能库
 - [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) (2024) — 从经验中归纳工作流
+- [Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents (WikiTrace)](https://arxiv.org/abs/2611.14320) (2026) — 教训必须能追溯到原始轨迹，否则记忆反而让 agent 变差
 
 **认知科学原典（类脑设计的根）**：Atkinson & Shiffrin (1968) 多存储模型 · Baddeley & Hitch (1974) 工作记忆 · Tulving (1972) 情景/语义区分 · Ebbinghaus (1885) 遗忘曲线 · Collins & Loftus (1975) 扩散激活 · McClelland 等 (1995) 互补学习系统 · Nader 等 (2000) 记忆再巩固 · Anderson ACT-R 基础激活方程
 
@@ -146,7 +149,7 @@ Curated AI-agent memory systems, papers, architectures and benchmarks — organi
 | 长期自主运行的 agent | Letta / MemOS |
 | 编码 agent 跨会话不失忆 | claude-mem / agentmemory / ai-memory |
 | 文档 + 记忆一体、自托管 | Cognee / OpenViking |
-| 想要人能读、能改、零锁定 | Basic Memory / ai-memory / **vic-memory** |
+| 想要人能读、能改、零锁定 | Basic Memory / ai-memory / GBrain / **vic-memory** |
 | 研究类脑记忆 | HippoRAG / A-MEM / LightMem / MIRIX |
 
 完整决策树 → [docs/selection-guide.md](docs/selection-guide.md)

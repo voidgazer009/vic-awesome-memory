@@ -49,6 +49,7 @@
 ## 12. 元记忆 & 来源监控
 知道自己"知道不知道"，记得信息从哪来。
 **AI 启示**：每条记忆带置信度和来源；检索不到时坦白"不知道"，而不是编造（LongMemEval 的 abstention 能力）。
+来源监控的工程例子：GBrain 给每条事实存来源并支持撤回；WikiTrace（arXiv:2611.14320）让每条经验教训链接回原始轨迹，使用前先核对——它报告"记错的教训"会让 agent 在本来能做对的任务上失败。
 
 ---
 **vic-memory 对这 12 条的实现情况** → https://github.com/voidgazer009/vic-memory
