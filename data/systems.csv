@@ -3,3 +3,30 @@ claude-mem,thedotmack/claude-mem,117433,2026-11-16,Apache-2.0,coding-agent,episo
 Mem0,mem0ai/mem0,69029,2026-11-16,Apache-2.0,fact-extraction,semantic,LLM extracts atomic facts per turn; hybrid vector+BM25+entity retrieval; user/session/agent scopes
 Hindsight,vectorize-io/hindsight,61248,2026-11-16,MIT,memory-that-learns,episodic+semantic+reflection,Retain/recall/reflect loop with graph + temporal recall and consolidation in the OSS server
 MemPalace,MemPalace/mempalace,60574,2026-11-16,MIT,method-of-loci,spatial/episodic,Memory-palace style organisation of raw conversation; strong published retrieval numbers
+OpenViking,volcengine/OpenViking,42287,2026-11-16,AGPL-3.0,context-database,semantic+procedural,Filesystem-style context DB unifying memory, RAG knowledge and skills with tiered L0/L1/L2 loading
+GraphRAG,microsoft/graphrag,36649,2026-11-16,MIT,graph-rag,semantic,Entity graph + community summaries for global questions over a corpus
+Cognee,topoteretes/cognee,33340,2026-11-16,Apache-2.0,knowledge-graph,semantic,ECL pipeline (extract-cognify-load) building graph + vector memory; MCP backend
+GBrain,garrytan/gbrain,33110,2026-11-16,MIT,file-first,semantic+consolidation,"Explicit facts with sources, corrections and withdrawal; keyless keyword retrieval first, optional semantic search, typed graph and overnight dream-cycle consolidation; shared across agents via MCP"
+Graphiti (Zep),getzep/graphiti,32832,2026-11-16,Apache-2.0,temporal-graph,episodic+semantic,Bi-temporal knowledge graph: every fact has valid_from/valid_to; old facts invalidated not deleted
+Supermemory,supermemoryai/supermemory,31632,2026-11-16,MIT,memory-api,semantic,Fast memory + context engine with connectors; runs locally
+TencentDB Agent Memory,TencentCloud/TencentDB-Agent-Memory,30929,2026-11-16,custom,team-memory,semantic,Team-level memory hub turning chats/docs/code into shared memory
+agentmemory,rohitg00/agentmemory,30390,2026-11-16,Apache-2.0,coding-agent,episodic,Persistent memory for coding agents with public retrieval baselines
+Letta (MemGPT),letta-ai/letta,25454,2026-11-16,Apache-2.0,memory-os,working+long-term,OS-style paging: in-context core memory blocks the agent self-edits + archival/recall storage
+Generative Agents,joonspk-research/generative_agents,22386,2026-11-16,Apache-2.0,research,episodic+reflection,Memory stream scored by recency x importance x relevance plus periodic reflection
+Memori,MemoriLabs/Memori,17590,2026-11-16,custom,sql-memory,semantic,LLM-agnostic memory layer that turns agent execution into structured SQL-backed memory
+ai-memory,akitaonrails/ai-memory,15966,2026-11-16,MIT,file-first,semantic+episodic,Git-backed markdown wiki as source of truth + derived index; cross-vendor handoff for coding CLIs
+MemOS,MemTensor/MemOS,12411,2026-11-16,Apache-2.0,memory-os,parametric+activation+plaintext,MemCube abstraction scheduling plaintext / KV-cache / parametric (LoRA) memory
+Honcho,plastic-labs/honcho,8141,2026-11-16,AGPL-3.0,user-modeling,theory-of-mind,Builds evolving representations of each user/peer (theory-of-mind style)
+ByteRover (Cipher),campfirein/byterover-cli,4945,2026-11-16,custom,coding-agent,procedural,Portable memory layer for coding agents (formerly Cipher)
+Basic Memory,basicmachines-co/basic-memory,4591,2026-11-16,AGPL-3.0,file-first,semantic,Local markdown knowledge graph read/written by the agent over MCP
+HippoRAG,OSU-NLP-Group/HippoRAG,4125,2026-11-16,MIT,neuro-inspired,hippocampal-indexing,Hippocampal indexing theory: KG + Personalized PageRank for multi-hop associative recall
+MIRIX,Mirix-AI/MIRIX,3467,2026-11-16,Apache-2.0,multi-agent-memory,6-type,Six memory types (core/episodic/semantic/procedural/resource/knowledge-vault) each run by an agent
+Memobase,memodb-io/memobase,2960,2026-11-16,Apache-2.0,user-profile,semantic,User-profile-centric long-term memory for chatbots
+Memary,kingjulio8238/Memary,2663,2026-11-16,MIT,knowledge-graph,semantic,Early open memory layer for autonomous agents (inactive since 2024)
+mcp-memory-service,doobidoo/mcp-memory-service,2129,2026-11-16,Apache-2.0,mcp,semantic,MCP + REST persistent memory with knowledge graph for Claude/LangGraph/CrewAI
+LangMem,langchain-ai/langmem,1771,2026-11-16,MIT,library,semantic+procedural,LangGraph-native memory tools incl. prompt (procedural) optimisation
+MemoryOS,BAI-LAB/MemoryOS,1622,2026-11-16,Apache-2.0,memory-os,short/mid/long-term,Three-tier short/mid/long-term storage with heat-based promotion (EMNLP 2025 Oral)
+LightMem,zjunlp/LightMem,1223,2026-11-16,MIT,efficient-memory,Atkinson-Shiffrin,Sensory filter -> topic short-term -> offline sleep-time long-term update (ICLR 2026)
+A-MEM,agiresearch/A-mem,1215,2026-11-16,MIT,agentic-memory,Zettelkasten,Zettelkasten notes that link and evolve existing memories when new ones arrive (NeurIPS 2025)
+WikiTrace,yukyeongleee/wikitrace,31,2026-11-16,Apache-2.0,research,procedural+source-monitoring,Evidence-linked experience memory: each lesson links to a why-it-succeeded/failed summary and the raw trajectory so the agent can verify or correct it (arXiv:2611.14320)
+MCP Memory (reference),modelcontextprotocol/servers,92025,2026-11-16,MIT-ish,mcp,semantic,Official reference knowledge-graph memory server (entities/relations/observations)
